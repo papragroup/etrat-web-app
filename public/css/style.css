@@ -1,0 +1,265 @@
+.input ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(188, 199, 191, 0.61);
+  opacity: 1;
+  /* Firefox */
+}
+
+.input :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(188, 199, 191, 0.61);
+  opacity: 1;
+  /* Firefox */
+}
+
+.input ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(188, 199, 191, 0.61);
+  opacity: 1;
+  /* Firefox */
+}
+
+.input ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(188, 199, 191, 0.61);
+  opacity: 1;
+  /* Firefox */
+}
+
+.input :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(188, 199, 191, 0.61);
+}
+
+.input ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(188, 199, 191, 0.61);
+}
+
+.input .inputBox {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(188, 199, 191, 0.61);
+  background-color: #115a23;
+  border-width: 0px;
+  border: none;
+  border-bottom: 2px solid rgba(188, 199, 191, 0.61);
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.input .inputBox:focus {
+  outline: none;
+}
+
+.input .inputBtn {
+  color: #fdfdfd;
+  background-color: transparent;
+  background-image: none;
+  border-color: rgba(188, 199, 191, 0.61);
+  height: 3.7rem;
+  border-radius: 10px;
+}
+
+.input #btnpos {
+  position: relative;
+}
+
+.input #tiklogin {
+  position: absolute;
+  top: 23px;
+  left: 218px;
+}
+
+.input .inputBtn:hover {
+  color: rgba(226, 228, 226, 0.61);
+  background-color: transparent;
+}
+
+.input .inputBtn:focus, .input .inputBtn.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #115a23;
+          box-shadow: 0 0 0 0.2rem #115a23;
+}
+
+.input .inputBtn.disabled, .input .inputBtn:disabled {
+  color: #fff;
+  background-color: rgba(188, 199, 191, 0.61);
+}
+
+.input .inputBtn:not(:disabled):not(.disabled):active, .input .inputBtn:not(:disabled):not(.disabled).active,
+.input .show > .inputBtn.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(188, 199, 191, 0.61);
+  border-color: rgba(188, 199, 191, 0.61);
+}
+
+.input .inputBtn:not(:disabled):not(.disabled):active:focus, .input .inputBtn:not(:disabled):not(.disabled).active:focus,
+.input .show > .inputBtn.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(188, 199, 191, 0.61);
+          box-shadow: 0 0 0 0.2rem rgba(188, 199, 191, 0.61);
+}
+
+.input hr {
+  color: rgba(188, 199, 191, 0.61);
+}
+
+.input .inputOTP {
+  width: 15%;
+  height: 6rem;
+  margin: 10px;
+  color: whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(188, 199, 191, 0.61);
+  border-width: 0px;
+  border: none;
+  font-size: 50px;
+  font-family: 'Yekan';
+}
+
+@media only screen and (max-width: 780px) {
+  .input .inputOTP {
+    width: 20%;
+    margin: 2px;
+    height: 3rem;
+  }
+}
+
+.input .otppart {
+  direction: ltr;
+}
+
+.input #resend {
+  cursor: pointer;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  min-height: 100%;
+  direction: rtl;
+  text-align: right;
+  font-family: "Yekan";
+  background-color: #115a23;
+  background-image: url(../../public/assets/Background/MaskGroup5.png), url(../../public/assets/Background/MaskGroup6.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: 30%;
+  color: rgba(188, 199, 191, 0.61);
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
+.main {
+  background-image: url(../../public/assets/Background/Group5.png), url(../../public/assets/Background/Group6.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, left, right;
+  background-size: 30%;
+  color: rgba(188, 199, 191, 0.61);
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: rgba(188, 199, 191, 0.61);
+  height: 100vh;
+}
+
+.main2 {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: rgba(188, 199, 191, 0.61);
+  position: relative;
+}
+
+.main2 .service {
+  background-color: whitesmoke;
+  width: 60%;
+  height: 5rem;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 10px 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.2rem #115a23;
+          box-shadow: 0 0 0 0.2rem #115a23;
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main2 .service {
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+  }
+}
+
+.main2 .service :hover {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 5ms;
+  transition: all 5ms;
+  padding: 4px;
+}
+
+.main2 .service .icon {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.main2 .service .icon img {
+  position: absolute;
+  top: 17px;
+  left: 13px;
+}
+
+.main2 .service .iconColory {
+  background-color: #ebc20b;
+}
+
+.main2 .service .iconColorb {
+  background-color: #33aafa;
+}
+
+.main2 .service .iconColorp {
+  background-color: #be0beb;
+}
+
+.main2 .service .iconColorr {
+  background-color: #eb0b43;
+}
+
+.imgLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.hrColor {
+  border-bottom: 1px solid rgba(188, 199, 191, 0.61);
+}
+/*# sourceMappingURL=style.css.map */

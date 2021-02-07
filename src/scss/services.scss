@@ -1,0 +1,153 @@
+@import "./variable";
+
+body{
+	font-family: 'Yekan';
+	font-size: 18px;
+	@media only screen and (max-width: 780px) {
+		font-size: 20px;
+	}
+}
+a{
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fdfdfd;
+   
+}
+a:hover{
+    color: rgb(107, 201, 135);
+    text-decoration: none;
+    transform: translate(0, -10px);
+}
+.main{
+    width: 100vh;
+}
+.serv{
+
+justify-content: center;
+border-radius: 20px 0 0 20px;
+color: whitesmoke;
+font-family: 'Yekan';
+width: 100%;
+display: flex;
+flex-direction: column;
+align-content: space-between;
+
+@media only screen and (max-width: 780px) {
+	background-size: cover;
+    justify-content: center;
+    height: 50vh;
+}
+}
+.servSadaghe{
+    // background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh ;
+    
+@media only screen and (min-width: 1200px) {
+    // background-image: ;
+    min-height:100vh ;
+}
+}
+.servNazr{
+    background-image: url("../assets/Background/Group595.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media only screen and (min-width: 1200px) {
+        background-image: url("../assets/Background/Group595@2x.png");
+        height: 100vh;
+    }
+}
+.servSharee{
+    background-image: url("../assets/Background/Group597.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media only screen and (min-width: 1200px) {
+        background-image: url("../assets/Background/Group597@2x.png");
+        height: 100vh;
+    }
+}
+.servfarzand{
+    background-image: url("../assets/Background/Group598.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media only screen and (min-width: 1200px) {
+        background-image: url("../assets/Background/Group598@2x.png");
+        height: 100vh;
+    }
+}
+.enterPrice{
+    direction: rtl;
+    border-radius: 5px;
+    // padding: 5px;
+    text-align: center;
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 7px -4px rgba(163, 163, 163, 0.438);
+    .priceInput{
+        border: 0;
+        background-color: #fdfdfd;
+        font-size: 3rem;
+        :focus {
+            outline: none !important;
+        }
+    }
+   
+}
+.price{
+    border-radius: 10px;
+    font-size: 26px;
+    color: $bgcolor;
+    padding: 10px;
+    text-align: center;  
+    background-color: #fdfdfd;
+    box-shadow: 10px 10px 7px -4px rgba(163, 163, 163, 0.438);
+	cursor: pointer;
+
+}
+.setIcon{
+	position: relative;
+	.seticonuser{
+		position:absolute;
+		top:5px;
+		left:97px;
+	}
+}
+.serpayment {
+	transition: 0.3s;
+  }
+  .serpayment:hover {
+	transform: translate(0, -10px);
+  }
+
+.fontSize {
+    font-size: 24px;
+}
+.mainpayment{
+    justify-content: center;
+    align-items: center;
+	flex-grow: 9
+
+}
+*:focus {
+	outline: none;
+	
+}
+.btnpayment{
+    transition: 0.3s;
+
+.btnpayment:hover {
+  transform: translate(0, -10px);
+}
+
+}
+.fontsizservices{
+    font-size: 14px;
+    text-align: center;
+  }
+  .p{
+      font-size: 12px;
+  }
+  .rtl{
+      direction:rtl ;
+      text-align: right;
+  }
